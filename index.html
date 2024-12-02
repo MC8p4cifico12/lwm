@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en-pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>learnWM</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="index.html" class="logo">
+             <img src="img/logo.ico.ico" alt="">
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#deals">Serviços</a></li>
+          <li><a href="https://learnwm.bubbleapps.io/version-test?debug_mode=off">LOGIN</a></li>
+        </ul>
+        <div class="nav__btns"
+        <a href="https://learnwm.bubbleapps.io/version-test?debug_mode=off"><button class="btn">LOGIN</button></a>
+        </div>
+      </nav>
+      <div class="header__container" id="home">
+        <div class="header__image">
+          <img src="img/logo22.png.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h2>👍 100% saltos de ensinos</h2>
+          <h1>learnWM</h1>
+          <p class="section__description">
+            Dê um salto em conhecimento e experiência com nossos cursos e serviços learnWm.
+          </p>
+          <br><br>
+          <div class="btns">
+            <a href="https://learnwm.bubbleapps.io/version-test?debug_mode=off"><button class="btn">LOGIN</button></a>
+          </div>
+        </div>
+        
+      </div>
+    </header>
+
+    <!--o que er -->
+    <section class="section__container client__container" id="client">
+        <h2 class="section__header">O que é o LearnWM?</h2>
+        <p class="section__description">
+          Learn With Me é um app criado para todos os estudantes e universitários.
+        O learnWM oferece cursos de alta qualidade, com ótimos professores e videoaulas gratuitas. Os alunos podem acessar cursos gratuitos que também incluem certificados.
+        Além disso, o learnWM disponibiliza atividades e simulados para auxiliar os alunos com a fixação do aprendizado,
+        permitindo a troca de mensagens com os professores - e com os alunos. O aplicativo também oferece aulas específicas para o ENEM.
+        </p>
+
+        <img class="tela1" src="img/Group 40.png" alt="">
+      </section>
+      <!--fim o que er -->
+
+      <!--cartegoria dos cursos-->
+
+    <section class="deals" id="deals">
+      <div class="section__container deals__container">
+        <h2 class="section__header">Nossos cursos  gratuitos e pagos!</h2>
+        <p class="section__description">
+          Nós teríamos uma variedade de cursos na nossa plataforma. Aqui está uma demonstração do que ofereceríamos. Dê uma olhada!
+        </p>
+        <div class="deals__tabs">
+          <button class="btn active" data-id="enem">ENEM</button>
+          <button class="btn" data-id="Ediçao"> WEB Design
+          </button>
+          <button class="btn" data-id="programaçao">Programação</button>
+          <button class="btn" data-id="idioms">Idiomas</button>
+        </div>
+        <div id="enem" class="tab__content active">
+          <div class="deals__card">
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(550)</span>
+            </div>
+            <h4>REDAÇÃO</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 100 People
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 20aulas
+              </div>
+              <div>
+                <span><i class="ri-video-on-fill"></i></span>videoaulas
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$00,00<span>/Por dia!</span></h3>
+              <a href="#">
+                Participe agora
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+           
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(450)</span>
+            </div>
+            <h4>CIÊNCIAS HUMANAS</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 100 People
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 20 AULAS
+              </div>
+              <div>
+                <span><i class="ri-video-on-fill"></i></span> videoaulas
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$00,00<span>/Por Dia!</span></h3>
+              <a href="#">
+                Participe Agora
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+            
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(550)</span>
+            </div>
+            <h4>EXATAS</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 120 People
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 20H
+              </div>
+              <div>
+                <span><i class="ri-video-on-fill"></i></span> video classes
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$00,00<span>/Por Dia</span></h3>
+              <a href="#">
+                Participe Agora
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div id="Ediçao" class="tab__content">
+          <div class="deals__card">
+           
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(350)</span>
+            </div>
+            <h4>Design</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 100 People
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 10h
+              </div>
+              <div>
+                <span><i class="ri-video-on-fill"></i></span> videoaulas
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$18,90<span>/O curso</span></h3>
+              <a href="#">
+                Compre
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+           
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(250)</span>
+            </div>
+            <h4>Figma</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 100 People
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 20h
+              </div>
+              <div>
+                <span><i class="ri-video-on-fill"></i></span> videoaulas
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$30,33<span>/O curso</span></h3>
+              <a href="#">
+                Comprar
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+           
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(150)</span>
+            </div>
+            <h4>Bubble</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 150 People
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 20h
+              </div>
+              <div>
+                <span><i class="ri-video-on-fill"></i></span> videoaulas
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$37.40<span>/O curso</span></h3>
+              <a href="#">
+                Compre
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--cartes de programaçao-->
+        <div id="programaçao" class="tab__content">
+          <div class="deals__card">
+           
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(200)</span>
+            </div>
+            <h4>Python</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 130 People
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 30h
+              </div>
+              <div>
+                <span><i class="ri-video-on-fill"></i></span> videoaulas
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$13,00<span>/O curso</span></h3>
+              <a href="#">
+                Compre
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+           
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(100)</span>
+            </div>
+            <h4>Banco de Dados - PHP</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 130 People
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 18h
+              </div>
+              <div>
+                <span><i class="ri-video-on-fill"></i></span> videoaulas
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$20,00<span>/O curso</span></h3>
+              <a href="#">
+                Compre
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+            
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(180)</span>
+            </div>
+            <h4>Armazenamento na Nuvem</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 100 People
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 40h
+              </div>
+              <div>
+                <span><i class="ri-video-on-fill"></i></span> videoaulas
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$00,00<span>/Por Dia</span></h3>
+              <a href="#">
+                Compre
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--fim cartes de programaçao-->
+
+        <!--cartes de idiomas-->
+        <div id="idioms" class="tab__content">
+          <div class="deals__card">
+            
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(250)</span>
+            </div>
+            <h4>ESPANHOL</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 120 People
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 10H
+              </div>
+              <div>
+                <span><i class="ri-video-on-fill"></i></span>videoaulas
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$00,00<span>/Por Dia</span></h3>
+              <a href="#">
+                Participe Agora
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+           
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(550)</span>
+            </div>
+            <h4>INGLÊS</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 200 People
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 20H
+              </div>
+              <div>
+                <span><i class="ri-video-on-fill"></i></span> videoaulas
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$10,00<span>/Por Dia</span></h3>
+              <a href="#">
+                Compre
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+           
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(180)</span>
+            </div>
+            <h4>FRANCÊS</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 100 People
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 30H 
+              </div>
+              <div>
+                <span><i class="ri-video-on-fill"></i></span> videoaulas
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$20,00<span>/Por Dia</span></h3>
+              <a href="#">
+                Compre
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--DESATIVADO-->
+        <div id="#" class="tab__content">
+          <div class="deals__card">
+           
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(200)</span>
+            </div>
+            <h4></h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> 
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span>
+              </div>
+              <div>
+                <span><i class="ri-video-on-fill"></i></span> 
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$100<span>/Per Day</span></h3>
+              <a href="#">
+                Rent Now
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+            <img src="" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(350)</span>
+            </div>
+            <h4>Elevate</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span>
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> 
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 
+              </div>
+              <div>
+                <span><i class="ri-car-line"></i></span> 
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$120<span>/Per Day</span></h3>
+              <a href="#">
+                Rent Now
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+            
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(300)</span>
+            </div>
+            <h4></h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span>
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 
+              </div>
+              <div>
+                <span><i class="ri-car-line"></i></span> 
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$150<span>/Per Day</span></h3>
+              <a href="#">
+                Rent Now
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section__container client__container" id="client">
+      <h2 class="section__header">Cursos focados no Enem</h2>
+      <p class="section__description">
+        Teríamos uma área do app exclusiva para os estudos ENEM, com professores
+        especializados nisso. Questões, videoaulas e simulações
+        com questões. O mesmo com a área de tecnologia, por exemplo.
+      </p>
+    </section>
+    <div class="choose__image">
+      <img src="img/Frame 8 (1).png" alt="choose" />
+    </div>
+
+     <!-- falando dos nossos serviços -->
+    <section class="choose__container" id="choose">
+      <div class="choose__content">
+        <h2 class="section__header">Serviços</h2>
+        <p class="section__description">
+          Vamos mostrar o que ofertamos: aqui estão os tópicos sobre nossos serviços.
+        </p>
+        <div class="choose__grid">
+          <div class="choose__card">
+            <span><i class="ri-customer-service-line"></i></span>
+            <div>
+              <h4>Suporte ao Cliente</h4>
+              <p>Uma equipe estaria disponível para suporte ao Cliente, além do nosso mascote - ele poderia ajudá-lo!</p>
+            </div>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-video-on-fill"></i></span>
+            <div>
+              <h4>Videoaulas</h4>
+              <p>
+                Nossa plataforma ofereceria videoaulas de alta resolução, oferecendo aulas de grande qualidade, com aulas gravadas - você pode acessar depois.
+              </p>
+            </div>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-wallet-line"></i></span>
+            <div>
+              <h4>Melhor preço</h4>
+              <p>Com cursos pagos e gratuitos.</p>
+            </div>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-user-star-line"></i></span>
+            <div>
+              <h4>Chat com professor / chatbot</h4>
+              <p>
+                Chat com professores que estariam disponíveis para responder suas perguntas, além do chatbot com IA - o Bunny.</p>
+            </div>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-verified-badge-line"></i></span>
+            <div>
+              <h4>Certificados</h4>
+              <p>
+                Os cursos que oferecemos oferecem certificados que podem ser incluídos no seu currículo profissional.</p>
+            </div>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-calendar-close-line"></i></span>
+            <div>
+              <h4>Agenda</h4>
+              <p>Uma área para a organização de suas atividades e cursos com data de entrega.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section__container client__container" id="client">
+      <h2 class="section__header"></h2>
+      <p class="section__description">
+       
+      </p>
+    </section>
+    
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">
+              <img src="img/logo.ico.ico" alt="logo" />
+              <span>learnWM</span>
+            </a>
+          </div>
+          <p>
+           
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-youtube-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Nossos Serviços</h4>
+          <ul class="footer__links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Sobre</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Desenvolvedores</h4>
+          <ul class="footer__links">
+            <li><a href="#">Clara Stefany </a></li>
+            <li><a href="#">Ana Carla </a></li>
+            <li><a href="#">Maria Isabelle</a></li>
+            <li><a href="#">Maria Clara Pacifico</a></li>
+            
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contato</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> +55 88 99865-6530
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-fill"></i></span> Instituto Federal - Campus Crato
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-mail-fill"></i></span> learnWM@gmail.com
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="java.js"></script>
+  </body>
+</html>
